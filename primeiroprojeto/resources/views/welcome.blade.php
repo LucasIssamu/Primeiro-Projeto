@@ -46,7 +46,7 @@
                     </ul>
                 </li>
             </ul>
-            <i class="fa fa-shopping"></i>
+            <!-- <i class="fa fa-shopping"></i> -->
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
                 <button class="btn btn-outline-light" type="submit">Pesquisar</button>
@@ -58,9 +58,9 @@
 <section class="bg-dark p-5">
     <div class="container">
         <div class="row text-center">
-            <div class="col-3 mb-3">
+            <div class="col-lg-3 col-md-6 mb-3">
                 <div class="card bg-secondary text-light border-warning">
-                    <img src="images/produto1.jpg" alt="produto1" class="card-img-top">
+                    <img src="images/produto1.jpg" alt="produto1" class="card-img-top" width="300px" height="300px">
                     <div class="card-body">
                         <h6 class="card-title">Produto 1</h6>
                         <p class="card-text"> R$0,00</p>
@@ -69,13 +69,13 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-3">
-                <div class="card">
-                    <img src="" alt="" class="card-img-top">
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card bg-secondary text-light border-warning">
+                    <img src="images/produto2.jpg" alt="produto2" class="card-img-top" width="300px" height="300px">
                     <div class="card-body">
                         <h6 class="card-title">Produto 2</h6>
                         <p class="card-text"> R$0,00</p>
-                        <a href="#" class="btn btn-sm btn-secondary">Adicionar</a>
+                        <a href="#" class="btn btn-sm btn-warning justify-center">Adicionar</a>
                     </div>
                 </div>
             </div>
